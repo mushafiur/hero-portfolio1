@@ -203,7 +203,7 @@ nav .menu a{
 }
 
 .services-info-card img{
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .services-info-card h4{
@@ -218,4 +218,64 @@ nav .menu a{
   color: #757575;
   line-height: 28px;
 }
+
+#resume{
+  padding-top: 130px;
+}
+
+#resume .resume-container{
+  width: 70%;
+  max-width: 1140px;
+  /* border: 1px solid red;  */
+  margin: 0 auto;
+}
+
+#resume .resume-container .resume-heading{
+  margin-bottom: 100px;
+}
+
+.resume-content-container{
+  display: flex;
+  gap: 24px;
+}
+
+.resume-content h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.resume-card{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #D1D1D1; 
+}
+
+.resume-card h3{
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resume-card h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 10px;
+}
+
+.resume-card p{
+  max-width: 85%; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+}
+
+.resume-card-btn{
+  text-align: center;
+}
+
 
